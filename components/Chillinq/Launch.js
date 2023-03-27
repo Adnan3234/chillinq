@@ -5,7 +5,7 @@ const Launch = () => {
     return (
         <div className='mt-[70px] sm:mt-[10px] sm:flex sm:items-center sm:justify-around bg-white p-4'>
             <div>
-                <div className='font-bold text-3xl sm:text-5xl sm:space-y-1 mb-1'>
+                <div className='font-bold text-5xl sm:text-5xl sm:space-y-1 mb-1'>
                     <p className='text-[#DB1F48]'>Launching</p>
                     <p>Soon!</p>
                 </div>

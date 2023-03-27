@@ -23,7 +23,7 @@ const WhyChillinq = () => {
             <div className='flex flex-col items-center space-y-12 my-5 mb-20'>
                 <p className='font-bold text-2xl sm:text-4xl text-center '>Are you ready to <span className='text-[#DB1F48]'>chill?</span></p>
                 <div className='w-[90%] sm:w-[60%] border border-gray-200 rounded-lg bg-gradient-to-r from-[#ECAEC8] via-[#e68ebc] to-[#b89ff7] hover:from-[#b8adf2] hover:to-[#dd8dad] '>
-                    <input value={email} onChange={(e) => { setEmail(e.target.value) }} className='p-1 w-[50%] tracking-[3px]  outline-none  bg-[#d9d9d9] rounded-lg' type='email' id="email" name="email" placeholder='Email' />
+                    <input value={email} onChange={(e) => { setEmail(e.target.value) }} className='text-[12px] p-1 w-[40%] sm:w-[50%] tracking-[3px]  outline-none  bg-[#d9d9d9] rounded-lg' type='email' id="email" name="email" placeholder='Email' />
                     <button onClick={submitEmail} className='px-3 text-white font-bold tracking-[5px] '> |  Notify me!</button>
                 </div>
             </div>
