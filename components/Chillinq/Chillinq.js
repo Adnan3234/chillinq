@@ -20,7 +20,7 @@ const Chillinq = () => {
         const changeColor = () => {
             if (window.scrollY >= 70) {
                 // setColor('rgb(0 0 0 / 0.2)')
-                setColor('#223997')
+                setColor('#000')
                 // setColor('#364b84')
                 setTextcolor('white')
                 setBorderColor('green')
