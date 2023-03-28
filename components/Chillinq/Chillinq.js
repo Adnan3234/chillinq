@@ -57,9 +57,13 @@ const Chillinq = () => {
                         {!navbar ? <AiOutlineMenu style={{ color: '#fff' }} size={20} /> : <AiOutlineClose style={{ color: '#fff' }} size={20} />}
                     </div>
                     {/* Mobile Menu Slide in */}
-                    <div className={navbar ? 'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300' : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'}>
+                    <div className={navbar ? 'sm:hidden absolute underline underline-offset-8 decoration-[#272729] top-0 py-16 left-0 right-0 bottom-0 flex justify-center w-full h-screen bg-black text-center ease-in duration-300' : 'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300'}>
+                        <p className='absolute top-4 z-999 cursor-pointe ' onClick={navHandler}>
+                            <Image src={'/chillinq.png'} alt='/' width='100' height='50' />
+                            {/* <h1 onClick={() => { setSelectedBorder(1) }} className='font-bold text-3xl' style={{ color: textcolor == 'white' ? 'blue' : 'blue' }}>ToneTag</h1> */}
+                        </p>
                         <ul>
-                            <Link href={'/'}><li onClick={navHandler} className='p-4  hover:text-green-200'>Whitepaper</li></Link>
+                            <Link href={'/'}><li onClick={navHandler} className='p-4  hover:text-green-200 '>Whitepaper</li></Link>
                             <Link href={'/about'}><li onClick={navHandler} className='p-4  hover:text-green-200'>Litepaper</li></Link>
                             <Link href={'/contact'}><li onClick={navHandler} className='p-4  hover:text-green-200'>Blogs</li></Link>
                         </ul>

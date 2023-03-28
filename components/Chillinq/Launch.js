@@ -24,7 +24,7 @@ const Launch = () => {
             <div >
                 <Image priority src={'/mobile.png'} width='400' height='300' />
             </div>
-            <div className='sm:hidden flex items-center justify-center py-2'>
+            <div className='sm:hidden flex items-center justify-center sm:py-2'>
                 {/* Comming soon on playstore and appstore */}
                 <div>
                     <Image src={'/android.png'} width='150' height='200' />
