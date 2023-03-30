@@ -3,12 +3,21 @@ import React, { useState } from 'react'
 import imgUrl from '../../public/7.png'
 const WhyChillinq = () => {
     const [email, setEmail] = useState('')
+    const [loader, setLoader] = useState(false)
     const submitEmail = () => {
+        setLoader(true)
         if (email.length > 0) {
-            alert('Email Send Successfully')
-            return
+            setEmail('')
+            setTimeout(() => {
+                setLoader(false)
+                alert('Email Send Successfully')
+                return
+            }, 2000)
+        } else {
+            alert('Email Field is Empty')
+            setLoader(false)
         }
-        alert('Email Field is Empty')
+
     }
     return (
         <>
@@ -27,9 +36,27 @@ const WhyChillinq = () => {
                     <p className=' sm:hidden font-bold text-4xl text-center '>Are you ready to </p>
                     <p className='p-0 m-0 sm:hidden font-bold text-3xl text-center text-[#DB1F48]'>chill?</p>
                 </div>
-                <div className='sm:w-[60%] border border-gray-200 rounded-lg bg-gradient-to-r from-[#ECAEC8] via-[#e68ebc] to-[#b89ff7] hover:from-[#b8adf2] hover:to-[#dd8dad] '>
+                {/* <button type="button" class="bg-indigo-500 ..." disabled>
+                    <svg class="animate-spin h-5 w-5 mr-3 ..." viewBox="0 0 24 24">
+                    </svg>
+                    Processing...
+                </button> */}
+
+
+                <div className='flex items-center sm:w-[60%] border border-gray-200 rounded-lg bg-gradient-to-r from-[#ECAEC8] via-[#e68ebc] to-[#b89ff7] hover:from-[#b8adf2] hover:to-[#dd8dad] '>
                     <input value={email} onChange={(e) => { setEmail(e.target.value) }} className='text-[12px] p-1 w-[40%] sm:w-[50%] tracking-[3px]  outline-none  bg-[#d9d9d9] rounded-lg' type='email' id="email" name="email" placeholder='Email' />
-                    <button onClick={submitEmail} className='px-3 text-white font-bold tracking-[5px]  '> |  Notify me!</button>
+                    <button onClick={submitEmail} className='px-3 text-white font-bold tracking-[5px] flex '>
+                        {loader && <div class="hidden sm:flex sm:items-center sm:justify-center mx-3">
+                            <div
+                                class="inline-block h-5 w-5 animate-spin rounded-full border-2 border-solid border-current border-r-transparent align-[-0.125em] text-[#db1f48] motion-reduce:animate-[spin_1.5s_linear_infinite]"
+                                role="status">
+                                <span
+                                    class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]"
+                                >Loading...</span
+                                >
+                            </div>
+                        </div>}  |  Notify me!</button>
+
                 </div>
             </div>
         </>
