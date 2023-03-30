@@ -15,6 +15,7 @@ const Footer = () => {
                     <SocialIcon className='cursor-pointer' bgColor='#000' style={{ height: "25px", width: "25px" }} fgColor='#fff' target='_blank' url="https://instagram.com/" />
                     <SocialIcon className='cursor-pointer' bgColor='#000' style={{ height: "25px", width: "25px" }} fgColor='#fff' target='_blank' url="https://twitter.com/" />
                     <SocialIcon className='cursor-pointer' bgColor='#000' style={{ height: "25px", width: "25px" }} fgColor='#fff' target='_blank' url="https://facebook.com/" />
+                    <BsMedium className='cursor-pointer mx-3' size={15} />
                     <FaDiscord className='cursor-pointer' size={15} />
                     {/* <SocialIcon bgColor='#000' style={{ height: "25px", width: "25px" }} fgColor='#fff' target='_blank' url="https://discord.com/" /> */}
                 </div>
