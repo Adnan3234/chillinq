@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <>
             <footer className='hidden bg-[#000] border w-full text-white text-center text-[8px] sm:text-xs font-sans p-2 sm:flex sm:items-center sm:justify-around'>
-                <p className=''>Home </p>
+                <p className=''>Privacy Policy </p>
                 <p>Terms and Conditions.</p>
                 <div className='flex items-center' >
                     {/* <p></p> */}
@@ -36,7 +36,7 @@ const Footer = () => {
                 {/* <SocialIcon bgColor='#000' style={{ height: "25px", width: "25px" }} fgColor='#fff' target='_blank' url="https://discord.com/" /> */}
             </div>
             <footer className='flex items-center justify-between bg-[#000] border w-full text-white text-center text-[10px]  font-sans font-semibold p-4 sm:hidden'>
-                <p className=''>Home </p>
+                <p className=''>Privacy Policy </p>
                 <p>Terms and Conditions.</p>
                 <p>© 2023 Chillinq. All rights reserved.</p>
             </footer>

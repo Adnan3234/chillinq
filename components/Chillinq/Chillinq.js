@@ -35,7 +35,7 @@ const Chillinq = () => {
     }, [])
     return (
         <div>
-            <header style={{ backgroundColor: `${color}` }} className='fixed top-0 left-0 w-full  z-50'>
+            <header style={{ backgroundColor: `${color}` }} className='fixed top-0 left-0 w-full z-50'>
                 {/* fixed left-0 top-0 w-full z-10 ease-in duration-300 */}
                 <nav className='max-w-[1440px] m-auto p-3 md:p-2 text-white flex justify-between items-center'>
                     <motion.div className='ml-9' initial={{ x: -500, opacity: 0, scale: 0.5 }} animate={{ x: 0, opacity: 1, scale: 1 }} transition={{ duration: 1 }}>
