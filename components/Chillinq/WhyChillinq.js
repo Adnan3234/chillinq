@@ -43,9 +43,9 @@ const WhyChillinq = () => {
                 </button> */}
 
 
-                <div className='flex items-center sm:w-[60%] border border-gray-200 rounded-lg bg-gradient-to-r from-[#ECAEC8] via-[#e68ebc] to-[#b89ff7] hover:from-[#b8adf2] hover:to-[#dd8dad] '>
-                    <input value={email} onChange={(e) => { setEmail(e.target.value) }} className='text-[12px] p-1 w-[40%] sm:w-[50%] tracking-[3px]  outline-none  bg-[#d9d9d9] rounded-lg' type='email' id="email" name="email" placeholder='Email' />
-                    <button onClick={submitEmail} className='px-3 text-white font-bold tracking-[5px] flex '>
+                <div className='flex items-center sm:w-[500px] border border-gray-200 rounded-lg bg-gradient-to-r from-[#ECAEC8] via-[#e68ebc] to-[#b89ff7] hover:from-[#b8adf2] hover:to-[#dd8dad] '>
+                    <input value={email} onChange={(e) => { setEmail(e.target.value) }} className='text-[12px] p-1 w-[40%] sm:w-[300px] tracking-[3px]  outline-none  bg-[#d9d9d9] rounded-lg' type='email' id="email" name="email" placeholder='Email' />
+                    <button onClick={submitEmail} className='sm:w-[190px]  px-2 text-white font-bold tracking-[5px] flex '>
                         {loader && <div class="hidden sm:flex sm:items-center sm:justify-center mx-3">
                             <div
                                 class="inline-block h-5 w-5 animate-spin rounded-full border-2 border-solid border-current border-r-transparent align-[-0.125em] text-[#db1f48] motion-reduce:animate-[spin_1.5s_linear_infinite]"

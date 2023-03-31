@@ -3,7 +3,7 @@ import React from 'react'
 
 const Launch = () => {
     return (
-        <div className='mt-[70px] sm:mt-[10px] sm:flex sm:items-center sm:justify-around bg-white p-4'>
+        <div className='mt-[70px] sm:mt-[10px] sm:flex sm:items-center sm:justify-around bg-white p-4 sm:p-2'>
             <div>
                 <div className='font-bold text-5xl sm:text-5xl sm:space-y-1 mb-1'>
                     <p className='text-[#DB1F48]'>Launching</p>
@@ -22,9 +22,9 @@ const Launch = () => {
                 </div>
             </div>
             <div >
-                <Image priority src={'/mobile.png'} width='400' height='300' />
+                <Image priority src={'/phone.png'} width='400' height='250' />
             </div>
-            <div className='sm:hidden flex items-center justify-center sm:py-2'>
+            <div className='sm:hidden flex items-center justify-center '>
                 {/* Comming soon on playstore and appstore */}
                 <div>
                     <Image src={'/android.png'} width='150' height='200' />
