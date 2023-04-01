@@ -19,7 +19,7 @@ const Footer = () => {
                     <SocialIcon className='cursor-pointer' bgColor='#000' style={{ height: "25px", width: "25px" }} fgColor='#fff' target='_blank' url="https://www.linkedin.com/company/chillinqueue/" />
                     <SocialIcon className='cursor-pointer' bgColor='#000' style={{ height: "25px", width: "25px" }} fgColor='#fff' target='_blank' url="https://www.instagram.com/chillinqueue/" />
                     <SocialIcon className='cursor-pointer' bgColor='#000' style={{ height: "25px", width: "25px" }} fgColor='#fff' target='_blank' url="https://twitter.com/chillinqueue" />
-                    <SocialIcon className='cursor-pointer' bgColor='#000' style={{ height: "25px", width: "25px" }} fgColor='#fff' target='_blank' url="https://facebook.com/" />
+                    <SocialIcon className='cursor-pointer' bgColor='#000' style={{ height: "25px", width: "25px" }} fgColor='#fff' target='_blank' url="https://www.facebook.com/app.chillinq" />
                     <Link href='https://chillinq.medium.com/' target='_blank' ><BsMedium className='cursor-pointer mx-3' size={15} /></Link>
                     <Link target="_blank" href='https://discord.gg/KSfQWeDbmf'>
                         <FaDiscord className='cursor-pointer' size={15} />
@@ -34,7 +34,7 @@ const Footer = () => {
                 <Link target="_blank" href='https://www.linkedin.com/company/chillinqueue/'><FaLinkedin className='cursor-pointer' size={15} /></Link>
                 <Link target="_blank" href='https://www.instagram.com/chillinqueue/'><FaInstagram className='cursor-pointer' size={15} /></Link>
                 <Link target="_blank" href='https://twitter.com/chillinqueue'><FaTwitter className='cursor-pointer' size={15} /></Link>
-                <Link target="_blank" href='https://facebook.com'><FaFacebook className='cursor-pointer' size={15} /></Link>
+                <Link target="_blank" href='https://www.facebook.com/app.chillinq'><FaFacebook className='cursor-pointer' size={15} /></Link>
                 <Link target="_blank" href='https://chillinq.medium.com/'><BsMedium className='cursor-pointer' size={15} /></Link>
                 {/* <SocialIcon bgColor='#000' style={{ height: "25px", width: "25px" }} fgColor='#fff' target='_blank' url="https://instagram.com/" /> */}
                 {/* <SocialIcon bgColor='#000' style={{ height: "25px", width: "25px" }} fgColor='#fff' target='_blank' url="https://twitter.com/" /> */}
