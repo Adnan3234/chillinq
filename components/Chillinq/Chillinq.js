@@ -6,7 +6,21 @@ import { motion } from 'framer-motion'
 import Launch from './Launch'
 import WhyChillinq from './WhyChillinq'
 import Footer from './Footer'
+// import { neonCursor } from 'https://unpkg.com/threejs-toys@0.0.8/build/threejs-toys.module.cdn.min.js'
 
+// neonCursor({
+//     el: document.getElementById('app'),
+//     shaderPoints: 16,
+//     curvePoints: 80,
+//     curveLerp: 0.5,
+//     radius1: 5,
+//     radius2: 30,
+//     velocityTreshold: 10,
+//     sleepRadiusX: 100,
+//     sleepRadiusY: 100,
+//     sleepTimeCoefX: 0.0025,
+//     sleepTimeCoefY: 0.0025
+// })
 const Chillinq = () => {
     const [navbar, setNavbar] = useState(false);
     const [color, setColor] = useState('#000')
@@ -70,6 +84,12 @@ const Chillinq = () => {
                     </div>
                 </nav>
             </header>
+            {/* <div id="app">
+                <div id="hero">
+                    <h1>NEON<br />CURSOR</h1>
+                    <a target="_blank" href="https://github.com/klevron/threejs-toys">github/threejs-toys</a>
+                </div>
+            </div> */}
             {/* Launch */}
             <Launch />
             <WhyChillinq />

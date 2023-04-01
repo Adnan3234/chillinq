@@ -1,7 +1,7 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons';
 import { FaDiscord, FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import { BsMedium } from "react-icons/bs";
+import { BsMedium, BsTelegram } from "react-icons/bs";
 import Link from 'next/link';
 const Footer = () => {
 
@@ -20,7 +20,9 @@ const Footer = () => {
                     <SocialIcon className='cursor-pointer' bgColor='#000' style={{ height: "25px", width: "25px" }} fgColor='#fff' target='_blank' url="https://www.instagram.com/chillinqueue/" />
                     <SocialIcon className='cursor-pointer' bgColor='#000' style={{ height: "25px", width: "25px" }} fgColor='#fff' target='_blank' url="https://twitter.com/chillinqueue" />
                     <SocialIcon className='cursor-pointer' bgColor='#000' style={{ height: "25px", width: "25px" }} fgColor='#fff' target='_blank' url="https://www.facebook.com/app.chillinq" />
+                    <SocialIcon className='cursor-pointer' bgColor='#000' style={{ height: "25px", width: "25px" }} fgColor='#fff' target='_blank' url="https://t.me/chillinqueue" />
                     <Link href='https://chillinq.medium.com/' target='_blank' ><BsMedium className='cursor-pointer mx-3' size={15} /></Link>
+                    {/* <Link target="_blank" href='https://t.me/chillinqueue'><BsTelegram className='cursor-pointer' size={15} /></Link> */}
                     <Link target="_blank" href='https://discord.gg/KSfQWeDbmf'>
                         <FaDiscord className='cursor-pointer' size={15} />
                     </Link>
@@ -36,6 +38,9 @@ const Footer = () => {
                 <Link target="_blank" href='https://twitter.com/chillinqueue'><FaTwitter className='cursor-pointer' size={15} /></Link>
                 <Link target="_blank" href='https://www.facebook.com/app.chillinq'><FaFacebook className='cursor-pointer' size={15} /></Link>
                 <Link target="_blank" href='https://chillinq.medium.com/'><BsMedium className='cursor-pointer' size={15} /></Link>
+                <Link target="_blank" href='https://t.me/chillinqueue'><BsTelegram className='cursor-pointer' size={15} /></Link>
+                {/* <SocialIcon className='cursor-pointer' bgColor='#000' style={{ height: "25px", width: "25px" }} fgColor='#fff' target='_blank' url="https://t.me/chillinqueue" /> */}
+
                 {/* <SocialIcon bgColor='#000' style={{ height: "25px", width: "25px" }} fgColor='#fff' target='_blank' url="https://instagram.com/" /> */}
                 {/* <SocialIcon bgColor='#000' style={{ height: "25px", width: "25px" }} fgColor='#fff' target='_blank' url="https://twitter.com/" /> */}
                 {/* <SocialIcon bgColor='#000' style={{ height: "25px", width: "25px" }} fgColor='#fff' target='_blank' url="https://facebook.com/" /> */}
