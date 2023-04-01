@@ -3,9 +3,9 @@ import React from 'react'
 
 const Launch = () => {
     return (
-        <div className='mt-[70px] sm:mt-[10px] sm:flex sm:items-center sm:justify-around bg-white p-4 sm:p-2'>
+        <div className='lg:justify-center lg:gap-52 mt-[70px] sm:mt-[10px] sm:flex sm:items-center sm:justify-around bg-white p-4 sm:p-2'>
             <div>
-                <div className='font-bold text-5xl sm:text-5xl sm:space-y-1 mb-1'>
+                <div className='font-bold text-5xl sm:text-5xl xl:text-7xl sm:space-y-1 mb-1'>
                     <p className='text-[#DB1F48]'>Launching</p>
                     <p>Soon!</p>
                 </div>

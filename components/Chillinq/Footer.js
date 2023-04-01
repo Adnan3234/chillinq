@@ -8,8 +8,12 @@ const Footer = () => {
     return (
         <>
             <footer className='hidden bg-[#000] border w-full text-white text-center text-[8px] sm:text-xs font-sans p-2 sm:flex sm:items-center sm:justify-around'>
-                <p className=''>Privacy Policy </p>
-                <p>Terms and Conditions</p>
+                <Link target='_blank' href='https://drive.google.com/file/d/1u9bGhekyB7jxQSJmOoQoPbxrKG_WLbn0/view?usp=share_link'>
+                    <p className=''>Privacy Policy </p>
+                </Link>
+                <Link target='_blank' href='https://drive.google.com/file/d/1kooFU6q4kSr2HWZm4Gi6reRm5O4Y6vjA/view?usp=share_link'>
+                    <p>Terms and Conditions</p>
+                </Link>
                 <div className='flex items-center' >
                     {/* <p></p> */}
                     <SocialIcon className='cursor-pointer' bgColor='#000' style={{ height: "25px", width: "25px" }} fgColor='#fff' target='_blank' url="https://www.linkedin.com/company/chillinqueue/" />
@@ -41,8 +45,12 @@ const Footer = () => {
                 {/* <SocialIcon bgColor='#000' style={{ height: "25px", width: "25px" }} fgColor='#fff' target='_blank' url="https://discord.com/" /> */}
             </div>
             <footer className='flex items-center justify-between bg-[#000] border w-full text-white text-center text-[10px]  font-sans font-semibold p-4 sm:hidden'>
-                <p className=''>Privacy Policy </p>
-                <p>Terms and Conditions</p>
+                <Link target='_blank' href='https://drive.google.com/file/d/1u9bGhekyB7jxQSJmOoQoPbxrKG_WLbn0/view?usp=share_link'>
+                    <p className=''>Privacy Policy </p>
+                </Link>
+                <Link target='_blank' href='https://drive.google.com/file/d/1kooFU6q4kSr2HWZm4Gi6reRm5O4Y6vjA/view?usp=share_link'>
+                    <p>Terms and Conditions</p>
+                </Link>
                 <p>© 2023 Chillinq. All rights reserved</p>
             </footer>
 

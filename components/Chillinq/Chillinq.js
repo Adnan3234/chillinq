@@ -46,9 +46,9 @@ const Chillinq = () => {
                     </motion.div>
                     <motion.div className='mr-20' initial={{ x: 500, opacity: 0, scale: 0.5 }} animate={{ x: 0, opacity: 1, scale: 1 }} transition={{ duration: 1.4 }} >
                         <ul style={{ color: `${'#fff'}` }} className='hidden sm:flex space-x-2'>
-                            <Link href={'/'}><li onClick={() => { setSelectedBorder(1); navHandler }} className='p-2 hover:text-green-200 hover:font-bold' style={selectedBorder == 1 ? { borderBottomWidth: 2, borderColor: '#fff' } : { borderBottomWidth: 0, borderColor: borderColor }}>Whitepaper</li></Link>
-                            <Link href={'/about'}><li onClick={() => { setSelectedBorder(3); navHandler }} className='p-2  hover:text-green-200 hover:font-bold' style={selectedBorder == 3 ? { borderBottomWidth: 2, borderColor: '#fff' } : { borderBottomWidth: 0, borderColor: borderColor }}>Litepaper</li></Link>
-                            <Link href={'/contact'}><li onClick={() => { setSelectedBorder(4); navHandler }} className='p-2  hover:text-green-200 hover:font-bold' style={selectedBorder == 4 ? { borderBottomWidth: 2, borderColor: '#fff' } : { borderBottomWidth: 0, borderColor: borderColor }}>Blogs</li></Link>
+                            <Link target='_blank' href={'https://drive.google.com/file/d/1lGt6NatXK0xgWws2USIYOuppfu5WKdDA/view?usp=share_link'}><li onClick={() => { setSelectedBorder(1); navHandler }} className='p-2 hover:text-green-200 hover:font-bold' style={selectedBorder == 1 ? { borderBottomWidth: 2, borderColor: '#fff' } : { borderBottomWidth: 0, borderColor: borderColor }}>Whitepaper</li></Link>
+                            <Link target='_blank' href={'https://drive.google.com/file/d/16P1Im99BXEzs6Sgo3VY-TIt8eJnLIYlR/view?usp=share_link'}><li onClick={() => { setSelectedBorder(3); navHandler }} className='p-2  hover:text-green-200 hover:font-bold' style={selectedBorder == 3 ? { borderBottomWidth: 2, borderColor: '#fff' } : { borderBottomWidth: 0, borderColor: borderColor }}>Litepaper</li></Link>
+                            <Link target='_blank' href={'https://chillinq.medium.com/'}><li onClick={() => { setSelectedBorder(4); navHandler }} className='p-2  hover:text-green-200 hover:font-bold' style={selectedBorder == 4 ? { borderBottomWidth: 2, borderColor: '#fff' } : { borderBottomWidth: 0, borderColor: borderColor }}>Blogs</li></Link>
                         </ul>
                     </motion.div>
                     {/* Mobile View */}
@@ -63,9 +63,9 @@ const Chillinq = () => {
                             {/* <h1 onClick={() => { setSelectedBorder(1) }} className='font-bold text-3xl' style={{ color: textcolor == 'white' ? 'blue' : 'blue' }}>ToneTag</h1> */}
                         </p>
                         <ul>
-                            <Link href={'/'}><li onClick={navHandler} className='p-4  hover:text-green-200 '>Whitepaper</li></Link>
-                            <Link href={'/about'}><li onClick={navHandler} className='p-4  hover:text-green-200'>Litepaper</li></Link>
-                            <Link href={'/contact'}><li onClick={navHandler} className='p-4  hover:text-green-200'>Blogs</li></Link>
+                            <Link target='_blank' href={'https://drive.google.com/file/d/1lGt6NatXK0xgWws2USIYOuppfu5WKdDA/view?usp=share_link'}><li onClick={navHandler} className='p-4  hover:text-green-200 '>Whitepaper</li></Link>
+                            <Link target='_blank' href={'https://drive.google.com/file/d/16P1Im99BXEzs6Sgo3VY-TIt8eJnLIYlR/view?usp=share_link'}><li onClick={navHandler} className='p-4  hover:text-green-200'>Litepaper</li></Link>
+                            <Link target='_blank' href={'https://chillinq.medium.com/'}><li onClick={navHandler} className='p-4  hover:text-green-200'>Blogs</li></Link>
                         </ul>
                     </div>
                 </nav>
